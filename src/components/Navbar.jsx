@@ -34,6 +34,9 @@ function Navbar() {
                     <a href="#yelp" id="xtwitter-icon">
                         <FontAwesomeIcon icon={faXTwitter} />
                     </a>
+                    <a href="#yelp" id="xtwitter-icon">
+                        <FontAwesomeIcon icon={faXTwitter} />
+                    </a>
                 </div>
             </div>
         </div>
