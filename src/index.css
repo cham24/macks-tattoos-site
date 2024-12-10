@@ -8,17 +8,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* HOME PAGE STYLES */
-/* Hero Section */
-.homepage {
-  /* width: calc(90% + 250px); */
-  left: 250px;
-}
-
+/*======================================================
+                      Home Page
+  =====================================================*/
 .hero-section {
   position: relative;
   height: 50vh;
-  /* background-image: url('your-image-url'); */
+  background-image: url('./pages/imgs/shop_inside.png');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -30,9 +26,9 @@ body {
 
 .hero-section .overlay {
   background-color: rgba(0, 0, 0, 0.5);
-  /* Semi-transparent overlay */
-  padding: 20px;
+  padding: 190px;
   width: 100%;
+  margin-left: 250px;
 }
 
 .title {
@@ -47,13 +43,11 @@ body {
   line-height: 1.5;
 }
 
-/* Content Section */
 .content-section {
   padding: 40px 20px;
-  background-color: #000;
-  /* Black background */
+  margin-left: 250px;
+  background-color: #080808;
   color: #fff;
-  /* White text */
   text-align: center;
 }
 
@@ -65,7 +59,6 @@ body {
 
 .content-section a {
   color: #f05b80;
-  /* Highlighted email link color */
   text-decoration: none;
 }
 
@@ -77,22 +70,87 @@ body {
   font-size: 20px;
   font-weight: bold;
   margin: 20px 0;
-  color: #f05b80;
-  /* CTA title color */
+  color: #FFD700;
 }
 
-.cta-button {
-  background-color: #f05b80;
-  /* Button background */
-  color: #fff;
+#cta-button {
+  background-color: 	#FFD700;
+  color: black;
   border: none;
   padding: 10px 20px;
+  border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
+  text-decoration: none;
 }
 
-.cta-button:hover {
+#cta-button:hover {
   background-color: #ff6b96;
-  /* Lighter button on hover */
 }
+
+/*======================================================
+              Home Page Image Gallery
+  =====================================================*/
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  background-color: #080808;
+  margin-left: 250px;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+  /* Ensure images don't stretch */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); */
+  /* Optional: Add a shadow effect */
+}
+
+/* .gallery-section {
+  margin-bottom: 40px !important;
+} */
+
+.gallery-section h2 {
+  text-align: center;
+  color: white;
+  background-color: #080808;
+  margin-left: 250px;
+  padding-top: 20px;
+}
+
+/*======================================================
+                  Home Page Bottom
+  =====================================================*/
+  .bottom-info {
+    position: relative;
+    background-image: url('./pages/imgs/shop_front.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    margin-left: 250px;
+    background-color: #080808;
+  }
+  
+  .bottom-info .bottom-overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .bottom-info .bottom-overlay p {
+    font-size: 1.2rem; /* Adjust the text size */
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
