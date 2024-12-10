@@ -1,0 +1,146 @@
+.artist-page {
+    background-color: #050505;
+    color: white;
+    padding: 50px 30px;
+    font-family: 'Arial', sans-serif;
+    margin-left: 250px;
+    /* border-bottom: 1px solid white; */
+}
+
+.artist-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.artist-header .availability {
+    font-size: 16px;
+    color: #FFD700;
+    /* Accent color */
+    margin-top: 5px;
+}
+
+.artist-bio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.artist-bio h3 {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.bio-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.bio-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.bio-photo {
+    max-width: 250px;
+    flex-shrink: 0;
+}
+
+.bio-photo img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.artist-portfolio {
+    text-align: center;
+}
+
+.artist-portfolio h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.artist-portfolio-grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.artist-portfolio-grid img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.artist-portfolio-grid img:hover {
+    transform: scale(1.025);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.close-button:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .artist-bio {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bio-text {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .modal-content {
+        max-width: 95%;
+        max-height: 95%;
+    }
+}
