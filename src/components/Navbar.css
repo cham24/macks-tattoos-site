@@ -30,22 +30,56 @@
     text-align: center;
 }
 
-.menu {
+.nav-menu {
     margin-top: 20px;
     width: 100%;
 }
 
-.menu a {
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu ul li {
+    margin: 10px 0;
+}
+
+.nav-menu a {
     display: block;
-    color: #f05b80;
+    color: #696969;
     text-decoration: none;
     font-size: 16px;
     margin: 10px 0;
+    padding: 10px 0;
     transition: color 0.3s;
 }
 
-.menu a:hover {
-    color: #fff;
+.nav-menu a.active,
+.nav-menu a:hover {
+    color: #FFD700;
+}
+
+/* .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 10px 20px; 
+} */
+
+.submenu {
+    list-style: none;
+    padding-left: 20px; /* Indent submenu */
+    margin: 5px 0;
+    margin-left: 10px !important;
+    transition: max-height 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* .submenu.open {
+    max-height: 300px; 
+} */
+
+.submenu li {
+    margin: 5px 0;
 }
 
 .social-icons {
@@ -74,4 +108,8 @@
 
 #xtwitter-icon:hover {
     color: grey;
+}
+
+#yelp-icon:hover {
+    color: #FF1A1A;
 }

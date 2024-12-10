@@ -26,7 +26,7 @@ body {
 
 .hero-section .overlay {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 190px;
+  padding: 190px 0px;
   width: 100%;
   margin-left: 250px;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .content-section a {
-  color: #f05b80;
+  /* color: #f05b80; */
   text-decoration: none;
 }
 
@@ -74,7 +74,7 @@ body {
 }
 
 #cta-button {
-  background-color: 	#FFD700;
+  background-color: #FFD700;
   color: black;
   border: none;
   padding: 10px 20px;
@@ -86,7 +86,7 @@ body {
 }
 
 #cta-button:hover {
-  background-color: #ff6b96;
+  background-color: #ffe96c;
 }
 
 /*======================================================
