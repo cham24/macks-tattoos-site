@@ -19,7 +19,6 @@ body {
   position: relative;
   height: 50vh;
   /* background-image: url('your-image-url'); */
-  /* Add your background image URL here */
   background-size: cover;
   background-position: center;
   display: flex;
