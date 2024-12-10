@@ -19,7 +19,7 @@ function Navbar() {
                     <a href="#artists">ARTISTS &gt;</a>
                     <a href="#reviews">REVIEWS</a>
                     {/* <a href="#press">PRESS & ARTICLES</a> */}
-                    <a href="#info">INFO & AFTERCARE &gt;</a>
+                    <a href="#info">INFO & AFTERCARE &gt;</a> 
                     <a href="/contact">CONTACT</a>
                 </nav>
 
