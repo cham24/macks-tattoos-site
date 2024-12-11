@@ -37,7 +37,7 @@ const SampleArtistPage = () => {
 
         <section className="artist-bio">
           <div className="bio-text">
-            <h3>TATTOO ARTIST | ******</h3>
+            <h3>TATTOO ARTIST | Justice</h3>
             <p>***INSERT ARTIST BIO HERE***</p>
             <p>***INSERT XTRA INFO HERE***</p>
           </div>
