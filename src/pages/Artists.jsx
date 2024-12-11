@@ -1,17 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Artists.css';
-// import ArtistImg from '../pages/imgs/artist_image.png';
+import MackImg from './imgs/mack.png';
+import StarrImg from './imgs/starr.png';
+import PreciousImg from './imgs/precious.png';
 
 const Artists = () => {
-    const artists = [
-        { name: 'SAMPLE NAME 1', photo: 'https://via.placeholder.com/200', link: '/mack' },
-        { name: 'SAMPLE NAME 2', photo: 'https://via.placeholder.com/200', link: '/mack' },
-        { name: 'SAMPLE NAME 3', photo: 'https://via.placeholder.com/200', link: '/mack' },
-        { name: 'SAMPLE NAME 4', photo: 'https://via.placeholder.com/200', link: '/mack' },
-        { name: 'SAMPLE NAME 5', photo: 'https://via.placeholder.com/200', link: '/mack' },
-    ];
-
     return (
         <div className="main">
             <div className="artists-page">
@@ -25,12 +19,26 @@ const Artists = () => {
                 </div>
 
                 <div className="artists-grid">
-                    {artists.map((artist, index) => (
-                        <Link to={artist.link} key={index} className="artist-card">
-                            <img src={artist.photo} alt={artist.name} />
-                            <h3>{artist.name}</h3>
-                        </Link>
-                    ))}
+                <Link to='/mack' className="artist-card">
+                        <img src={MackImg} alt="MACK" />
+                        <h3>MACK</h3>
+                    </Link>                   
+                     <Link to='/starr' className="artist-card">
+                        <img src={StarrImg} alt="STARR" />
+                        <h3>STARR</h3>
+                    </Link>
+                    <Link to='/precious' className="artist-card">
+                        <img src={PreciousImg} alt="PRECIOUS" />
+                        <h3>PRECIOUS</h3>
+                    </Link>
+                    <Link to='/justice' className="artist-card">
+                        <img src={MackImg} alt="JUSTICE" />
+                        <h3>JUSTICE</h3>
+                    </Link>
+                    <Link to='/matt' className="artist-card">
+                        <img src={MackImg} alt="MATT" />
+                        <h3>MATT</h3>
+                    </Link>
                 </div>
             </div>
         </div>

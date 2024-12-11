@@ -1,14 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Aftercare.css';
+import MinorPiercing from './imgs/minor_piercing.jpg';
+import TattooAftercare from './imgs/tattoo_aftercare.jpg';
+import PiercingAftercare from './imgs/piercing_aftercare.jpg';
 
 const Aftercare = () => {
-    const aftercares = [
-        { name: 'MINOR PIERCING', photo: 'https://via.placeholder.com/200', link: '/aftercare-minor-piercing' },
-        { name: 'TATTOO AFTERCARE', photo: 'https://via.placeholder.com/200', link: '/aftercare-tattoo' },
-        { name: 'PIERCING AFTERCARE', photo: 'https://via.placeholder.com/200', link: '/aftercare-piercing' },
-    ];
-
     return (
         <div className="main">
             <div className="aftercare-page">
@@ -22,14 +19,19 @@ const Aftercare = () => {
                 </div>
 
                 <div className="artists-grid">
-                    {aftercares.map((aftercare, index) => (
-                        <Link to={aftercare.link} key={index} className="artist-card">
-                            <img src={aftercare.photo} alt={aftercare.name} />
-                            <h3>{aftercare.name}</h3>
-                        </Link>
-                    ))}
+                    <Link to='/aftercare-minor-piercing' className="artist-card">
+                        <img src={MinorPiercing} alt='Minor Piercing' />
+                        <h3>MINOR PIERCING</h3>
+                    </Link>
+                    <Link to='/aftercare-tattoo' className="artist-card">
+                        <img src={TattooAftercare} alt='Tattoo Aftercare' />
+                        <h3>TATTOO AFTERCARE</h3>
+                    </Link>
+                    <Link to='/aftercare-piercing' className="artist-card">
+                        <img src={PiercingAftercare} alt='Piercing Aftercare' />
+                        <h3>PIERCING AFTERCARE</h3>
+                    </Link>
                 </div>
-
 
                 {/* <div className="aftercare-content">
                     <section className="aftercare-section">

@@ -23,6 +23,7 @@
     color: white;
     text-align: center;
     transition: transform 0.3s ease;
+    /* width: 200px; */
 }
 
 .artist-card img {

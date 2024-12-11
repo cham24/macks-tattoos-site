@@ -13,7 +13,7 @@ const Footer = () => {
                         <li><a href="/starr">STARR</a></li>
                         <li><a href="/precious">PRECIOUS</a></li>
                         <li><a href="/justice">JUSTICE</a></li>
-                        <li><a href="/hotguy">HOT GUY</a></li>
+                        <li><a href="/matt">MATT</a></li>
                         <li><a href="/aftercare">AFTERCARE</a></li>
                     </ul>
                 </div>
