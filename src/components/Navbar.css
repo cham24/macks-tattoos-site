@@ -57,7 +57,8 @@
 
 .nav-menu a.active,
 .nav-menu a:hover {
-    color: #FFD700;
+    /* color: #E1B343; */
+    color: gold;
 }
 
 /* .submenu {

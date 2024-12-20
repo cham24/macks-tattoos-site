@@ -1,0 +1,49 @@
+/* General Page Styling */
+.aftercare-page {
+    padding: 0;
+    background-color: #080808;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin-left: 250px;
+}
+
+.aftercare-content {
+    padding: 20px;
+}
+
+.aftercare-section {
+    margin-bottom: 20px;
+}
+
+.aftercare-section h2 {
+    font-size: 24px;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.aftercare-section p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .hero-banner {
+        height: 200px;
+    }
+
+    .hero-text h1 {
+        font-size: 24px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .aftercare-section h2 {
+        font-size: 20px;
+    }
+
+    .aftercare-section p {
+        font-size: 14px;
+    }
+}
