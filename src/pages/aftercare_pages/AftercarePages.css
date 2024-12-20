@@ -1,0 +1,124 @@
+/* Minor Piercing Styles */
+.minor-piercing-page {
+    padding: 70px;
+    background-color: #080808;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    height: 78vh;
+    /* margin-left: 250px; */
+}
+
+.minor-piercing-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.minor-piercing-header h1 {
+    font-size: 36px;
+    color: #FFD700;
+    text-align: left;
+    margin-left: 250px;
+}
+
+.minor-piercing-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.minor-piercing-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.minor-piercing-content ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style: decimal;
+}
+
+.minor-piercing-content ol li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Tattoo Aftercare Styles */
+.tattoo-aftercare-page {
+    padding: 50px;
+    background-color: #080808;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin-left: 250px;
+}
+
+.tattoo-aftercare-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tattoo-aftercare-header h1 {
+    font-size: 36px;
+    color: #FFD700;
+    text-align: left;
+}
+
+.tattoo-aftercare-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.aftercare-option h2 {
+    font-size: 24px;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.aftercare-option p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.aftercare-tips h2 {
+    font-size: 24px;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.aftercare-tips p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.aftercare-contact p {
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+}
+
+.aftercare-contact a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.aftercare-contact a:hover {
+    text-decoration: underline;
+}
+
+/* Piercing Aftercare Styles */
+
+/* Mobile Styling */
+@media (max-width: 768px) {
+    .minor-piercing-content {
+        padding: 0 10px;
+    }
+
+    .minor-piercing-header h1 {
+        font-size: 28px;
+    }
+
+    .minor-piercing-content p,
+    .minor-piercing-content ol li {
+        font-size: 14px;
+    }
+}

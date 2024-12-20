@@ -26,7 +26,7 @@ body {
 
 .hero-section .overlay {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 190px;
+  padding: 190px 0px;
   width: 100%;
   margin-left: 250px;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .content-section a {
-  color: #f05b80;
+  /* color: #f05b80; */
   text-decoration: none;
 }
 
@@ -74,7 +74,7 @@ body {
 }
 
 #cta-button {
-  background-color: 	#FFD700;
+  background-color: #FFD700;
   color: black;
   border: none;
   padding: 10px 20px;
@@ -86,7 +86,7 @@ body {
 }
 
 #cta-button:hover {
-  background-color: #ff6b96;
+  background-color: #ffe96c;
 }
 
 /*======================================================
@@ -126,31 +126,79 @@ body {
 /*======================================================
                   Home Page Bottom
   =====================================================*/
-  .bottom-info {
-    position: relative;
-    background-image: url('./pages/imgs/shop_front.png'); 
-    background-size: cover;
-    background-position: center;
-    height: 300px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 0;
-    margin-left: 250px;
-    background-color: #080808;
-  }
-  
-  .bottom-info .bottom-overlay {
-    background-color: rgba(0, 0, 0, 0.5); 
-    color: white;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-  }
-  
-  .bottom-info .bottom-overlay p {
-    font-size: 1.2rem; /* Adjust the text size */
-    margin: 10px 0;
-    line-height: 1.6;
-  }
-  
+.bottom-info {
+  position: relative;
+  background-image: url('./pages/imgs/shop_front.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  margin-left: 250px;
+  background-color: #080808;
+}
+
+.bottom-info .bottom-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.bottom-info .bottom-overlay p {
+  font-size: 1.2rem;
+  /* Adjust the text size */
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+/*======================================================
+                    Hero Banner
+  =====================================================*/
+.hero-banner {
+  position: relative;
+  background-image: url('./pages/imgs/shop_inside.png');
+  /* Replace with your tattoo shop image path */
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.hero-banner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Grayed-out overlay */
+  z-index: 1;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #FFD700;
+  /* Accent color for the heading */
+}
+
+.hero-text p {
+  font-size: 18px;
+  line-height: 1.5;
+}

@@ -1,0 +1,46 @@
+.artists-page {
+    text-align: center;
+    background-color: #080808;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin-left: 250px;
+}
+
+.artists-page h1 {
+    margin-bottom: 20px;
+}
+
+.artists-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px 0px;
+}
+
+.artist-card {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: transform 0.3s ease;
+    /* width: 200px; */
+}
+
+.artist-card img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+.artist-card h3 {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+
+.artist-card:hover {
+    transform: scale(1.025);
+}
