@@ -94,8 +94,9 @@ body {
   =====================================================*/
 .image-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 10px;
+  /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+  grid-template-columns: repeat(6, 3fr);
+  gap: 3px;
   padding: 20px;
   background-color: #080808;
   margin-left: 250px;
@@ -103,7 +104,7 @@ body {
 
 .image-gallery img {
   width: 100%;
-  height: auto;
+  height: 200px;
   border-radius: 5px;
   object-fit: cover;
   /* Ensure images don't stretch */
