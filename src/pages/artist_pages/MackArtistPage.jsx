@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import './ArtistsPage.css';
 import ArtistImg from '../imgs/mack.png';
-import TattooImg1 from '../imgs/tattoo_img.png';
-import TattooImg2 from '../imgs/tattoo_img.png';
-import TattooImg3 from '../imgs/tattoo_img.png';
-import TattooImg4 from '../imgs/tattoo_img.png';
-import TattooImg5 from '../imgs/tattoo_img.png';
-import TattooImg6 from '../imgs/tattoo_img.png';
-
+import TattooImg1 from '../imgs/mack/mack_tat10.jpg';
+import TattooImg2 from '../imgs/mack/mack_tat2.jpg';
+import TattooImg3 from '../imgs/mack/mack_tat3.jpg';
+import TattooImg4 from '../imgs/mack/mack_tat5.jpg';
+import TattooImg5 from '../imgs/mack/mack_tat6.jpg';
+import TattooImg6 from '../imgs/mack/mack_tat8.jpg';
 const SampleArtistPage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -51,6 +50,7 @@ const SampleArtistPage = () => {
           <div className="artist-portfolio-grid">
             {images.map((image, index) => (
               <img
+                className="artist-tattoo-image"
                 key={index}
                 src={image}
                 alt={`Tattoo ${index + 1}`}
