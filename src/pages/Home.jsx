@@ -16,7 +16,7 @@ function Home() {
 
                 <div className="content-section">
                     <h3 className="cta-title">Contact Us Now For Questions or to Schedule a Tattoo or Piercing Consultation</h3>
-                    <a id="cta-button" href="./contact-us">Contact Us Today!</a>
+                    <a id="cta-button" href="./contact">Contact Us Today!</a>
                 </div>
 
                 <div className="gallery-section">

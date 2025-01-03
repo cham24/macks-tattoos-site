@@ -4,6 +4,8 @@ import './Artists.css';
 import MackImg from './imgs/mack.png';
 import StarrImg from './imgs/starr.png';
 import PreciousImg from './imgs/precious.png';
+import JusticeImg from './imgs/artist_image.png';
+import MattImg from './imgs/artist_image.png';
 
 const Artists = () => {
     return (
@@ -32,11 +34,11 @@ const Artists = () => {
                         <h3>PRECIOUS</h3>
                     </Link>
                     <Link to='/justice' className="artist-card">
-                        <img src={MackImg} alt="JUSTICE" />
+                        <img src={JusticeImg} alt="JUSTICE" />
                         <h3>JUSTICE</h3>
                     </Link>
                     <Link to='/matt' className="artist-card">
-                        <img src={MackImg} alt="MATT" />
+                        <img src={MattImg} alt="MATT" />
                         <h3>MATT</h3>
                     </Link>
                 </div>

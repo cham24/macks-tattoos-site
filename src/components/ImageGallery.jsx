@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import RefImg from './imgs/img_ref.png'
 
 /* MACK PICS */
 import MackTat1 from '../pages/imgs/mack/mack_tat2.jpg'

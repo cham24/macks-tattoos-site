@@ -28,7 +28,7 @@ const Footer = () => {
                     {/* <h3>Contact Us</h3> */}
                     <a href="/" className="right-footer-list">MACK'S TATTOO & PIERCING</a>
                     <p>146 N 100 W<br />CEDAR CITY, UT 84720</p>
-                    <a href="tel:+4355555787" className="right-footer-list">(435) 555-5785</a><br /><a href="mailto:mackstattoos@gmail.com" className="right-footer-list">mackstattoos@gmail.com</a>
+                    <a href="tel:+4355555787" className="right-footer-list">(435) 327-2165</a><br /><a href="mailto:mackstattoos@gmail.com" className="right-footer-list">mackstattoos@gmail.com</a>
                     {/* <hr /> */}
                 </div>
             </footer>

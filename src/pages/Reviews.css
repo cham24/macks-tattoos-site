@@ -1,10 +1,11 @@
 .reviews-container {
     font-family: 'Arial', sans-serif;
     color: #fff;
-    background-color: #000;
-    padding: 20px;
+    background-color: #080808;
+    /* padding: 0px 0px 20px 0px; */
     line-height: 1.6;
     margin-left: 250px;
+    margin-bottom: -20px;
 }
 
 .reviews-hero-banner {
@@ -13,7 +14,7 @@
     background-position: center;
     text-align: center;
     height: 300px;
-    padding: 100px 20px;
+    padding: 80px 20px;
     color: #fff;
 }
 
@@ -31,6 +32,7 @@
 .reviews-content {
     max-width: 800px;
     margin: 20px auto;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -65,4 +67,11 @@
     font-size: 16px;
     color: #ccc;
     white-space: pre-line;
+}
+
+@media (max-width: 1000px) {
+    .reviews-container {
+        margin-left: auto;
+        margin-bottom: -120px;
+    }
 }

@@ -46,7 +46,7 @@ function Navbar() {
                     <a href="https://www.facebook.com/MACKSTATTOOSHOP/" id="facebook-icon">
                         <FontAwesomeIcon icon={faFacebook} />
                     </a>
-                    {/* <a href="https://www.x.com" id="xtwitter-icon">
+                    {/* <a href="https://www.google.com/search?q=macks+tattoo#lrd=0x80b561badef2c4cd:0x3fe11f0413ec0cbd,1" id="xtwitter-icon">
                         <FontAwesomeIcon icon={faXTwitter} />
                     </a> */}
                     <a href="https://www.yelp.com/biz/macks-tattoos-cedar-city" id="yelp-icon">
