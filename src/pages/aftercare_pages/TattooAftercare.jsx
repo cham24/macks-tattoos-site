@@ -11,7 +11,7 @@ const TattooAftercare = () => {
 
                 <section className="tattoo-aftercare-content">
                     <p>
-                        Thanks for getting tattooed at Mission Ink! Here are some aftercare instructions and reminders to make your healing process as painless as possible.
+                        Thanks for getting tattooed at Mack's Tattoos! Here are some aftercare instructions and reminders to make your healing process as painless as possible.
                     </p>
 
                     <div className="aftercare-option">
@@ -19,7 +19,7 @@ const TattooAftercare = () => {
                         <p>
                             <strong>1st day:</strong> Leave the bandage on for two hours or until you get home. Wash your hands prior to removing the bandage. Immediately wash the tattoo with liquid antibacterial soap to remove any ointment, blood, or plasma, and to completely clean the tattoo. Repeat until the tattoo is no longer slimy or glazed. (Do not use a washcloth on the tattoo until it is completely healed.) Let air dry. Do not re-bandage the tattoo.<br />
                             <strong>2nd – 3rd day:</strong> Repeat the cleaning procedure twice per day, washing with antibacterial soap as recommended by the artist. Remember to use freshly washed hands to clean the tattoo. In addition, apply a thin layer of Aquaphor twice a day over the freshly washed tattoo.<br />
-                            <strong>4th day:</strong> Use Aquaphor and apply a very light layer to the tattoo 2–3 times per day until the tattoo has healed. Always use freshly washed hands.
+                            <strong>4th day:</strong> Use Aquaphor and apply a very light layer to the tattoo 2-3 times per day until the tattoo has healed. Always use freshly washed hands.
                         </p>
                     </div>
 

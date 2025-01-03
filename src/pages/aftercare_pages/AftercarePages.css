@@ -105,8 +105,6 @@
     text-decoration: underline;
 }
 
-/* Piercing Aftercare Styles */
-
 /* Mobile Styling */
 @media (max-width: 768px) {
     .minor-piercing-content {
@@ -121,4 +119,91 @@
     .minor-piercing-content ol li {
         font-size: 14px;
     }
+}
+
+/* Piercing Aftercare Styles */
+.piercing-aftercare-container {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #080808;
+    padding: 50px;
+    line-height: 1.6;
+    margin-left: 250px;
+}
+
+.piercing-hero-banner {
+    background-image: url('https://via.placeholder.com/1500x500');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 20px;
+    color: #fff;
+}
+
+.piercing-hero-banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.piercing-hero-banner p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.piercing-aftercare-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.piercing-aftercare-content h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #FFD700;
+}
+
+.piercing-aftercare-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.piercing-aftercare-content li {
+    margin: 10px 0;
+}
+
+.piercing-healing-times-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.piercing-healing-times-table th,
+.piercing-healing-times-table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+
+.piercing-healing-times-table th {
+    background-color: #222;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.piercing-healing-times-table td {
+    background-color: #111;
+}
+
+.piercing-aftercare-content a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.piercing-aftercare-content a:hover {
+    text-decoration: underline;
 }
