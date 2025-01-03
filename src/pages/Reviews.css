@@ -1,0 +1,68 @@
+.reviews-container {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #000;
+    padding: 20px;
+    line-height: 1.6;
+    margin-left: 250px;
+}
+
+.reviews-hero-banner {
+    background-image: url('./imgs/shop/shop1.JPEG'); /* Replace with an appropriate background image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 300px;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+.reviews-hero-banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.reviews-hero-banner p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.reviews-content {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review-card {
+    background-color: #111;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review-header h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #FFD700;
+}
+
+.stars {
+    font-size: 18px;
+    color: #FFD700;
+}
+
+.review-text {
+    font-size: 16px;
+    color: #ccc;
+    white-space: pre-line;
+}

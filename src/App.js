@@ -1,4 +1,3 @@
-import './App.css';
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
@@ -14,6 +13,8 @@ import Aftercare from './pages/Aftercare';
 import MinorPiercing from './pages/aftercare_pages/MinorPiercing';
 import TattooAftercare from './pages/aftercare_pages/TattooAftercare';
 import PiercingAftercare from './pages/aftercare_pages/PiercingAftercare';
+import Reviews from './pages/Reviews';
+import Contact from './pages/Contact';
 // import ArtistPage from './pages/ArtistPage'; 
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
           <Route path="/aftercare-minor-piercing" exact={true} element={<MinorPiercing />} />
           <Route path="/aftercare-tattoo" exact={true} element={<TattooAftercare />} />
           <Route path="/aftercare-piercing" exact={true} element={<PiercingAftercare />} />
+          <Route path="/reviews" exact={true} element={<Reviews />} />
+          <Route path="/contact" exact={true} element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
