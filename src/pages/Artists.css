@@ -12,10 +12,11 @@
 
 .artists-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
     justify-items: center;
-    padding: 20px 0px;
+    padding: 20px 10px;
 }
 
 .artist-card {
@@ -43,4 +44,11 @@
 
 .artist-card:hover {
     transform: scale(1.025);
+}
+
+@media (max-width: 1000px) {
+    .artists-page {
+        margin-left: auto;
+        margin-bottom: -120px;
+    }
 }

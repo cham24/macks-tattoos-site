@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import RefImg from './imgs/img_ref.png'
 
 /* MACK PICS */
@@ -62,6 +62,8 @@ import StarrTat17 from '../pages/imgs/starr/starr_tat17.jpg'
 import StarrTat18 from '../pages/imgs/starr/starr_tat18.jpg'
 
 const ImageGallery = () => {
+    const [selectedImage, setSelectedImage] = useState(null);
+
     const images = [
         MackTat1,
         MackTat2,
@@ -119,11 +121,36 @@ const ImageGallery = () => {
         StarrTat18
     ];
 
+    const openModal = (image) => {
+        setSelectedImage(image);
+    };
+
+    const closeModal = () => {
+        setSelectedImage(null);
+    };
+
     return (
         <div className="image-gallery">
             {images.map((src, index) => (
-                <img className="image-gallery-img" key={index} src={src} alt={`Gallery Image ${index + 1}`} />
+                <img
+                    className="image-gallery-img"
+                    key={index}
+                    src={src}
+                    alt={`Gallery Image ${index + 1}`}
+                    onClick={() => openModal(src)}
+                />
             ))}
+
+            {selectedImage && (
+                <div className="home-modal" onClick={closeModal}>
+                    <div className="home-modal-content" onClick={(e) => e.stopPropagation()}>
+                        <img src={selectedImage} alt="Full Size" />
+                        <button className="close-button" onClick={closeModal}>
+                            &times;
+                        </button>
+                    </div>
+                </div>
+            )}
         </div>
     );
 };
