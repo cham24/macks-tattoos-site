@@ -7,6 +7,15 @@
     margin-left: 250px;
 }
 
+.aftercare-grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+    padding: 20px 10px;
+}
+
 .aftercare-content {
     padding: 20px;
 }
@@ -45,5 +54,12 @@
 
     .aftercare-section p {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .aftercare-page {
+        margin-left: auto;
+        margin-bottom: -120px;
     }
 }

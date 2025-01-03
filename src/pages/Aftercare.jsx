@@ -18,7 +18,7 @@ const Aftercare = () => {
                     </div>
                 </div>
 
-                <div className="artists-grid">
+                <div className="aftercare-grid">
                     <Link to='/aftercare-minor-piercing' className="artist-card">
                         <img src={MinorPiercing} alt='Minor Piercing' />
                         <h3>MINOR PIERCING</h3>

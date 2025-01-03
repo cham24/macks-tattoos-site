@@ -72,3 +72,9 @@
     text-decoration: none;
     color: white;
 }
+
+@media (max-width: 1000px) {
+    .footer {
+        margin-left: auto;
+    }
+}
