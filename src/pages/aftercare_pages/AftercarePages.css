@@ -6,7 +6,7 @@
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     height: 78vh;
-    /* margin-left: 250px; */
+    margin-left: 250px;
 }
 
 .minor-piercing-header {
@@ -206,4 +206,13 @@
 
 .piercing-aftercare-content a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    .minor-piercing-page,
+    .piercing-aftercare-container,
+    .tattoo-aftercare-page {
+        margin-left: auto;
+        margin-bottom: -120px;
+    }
 }
