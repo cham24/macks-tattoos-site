@@ -83,6 +83,11 @@ import JusticeTat14 from '../pages/imgs/justice/justice_tat14.jpg'
 import JusticeTat15 from '../pages/imgs/justice/justice_tat18.jpg'
 import JusticeTat16 from '../pages/imgs/justice/justice_tat16.jpg'
 import JusticeTat17 from '../pages/imgs/justice/justice_tat17.JPG'
+import JusticeTat18 from '../pages/imgs/justice/justice_tat23.jpg'
+import JusticeTat19 from '../pages/imgs/justice/justice_tat19.jpg'
+import JusticeTat20 from '../pages/imgs/justice/justice_tat20.jpg'
+import JusticeTat21 from '../pages/imgs/justice/justice_tat21.jpg'
+import JusticeTat22 from '../pages/imgs/justice/justice_tat22.jpg'
 
 /* PIERCING PICS */
 import Piercing1 from '../pages/imgs/piercings/piercing1.jpg'
@@ -184,7 +189,12 @@ const ImageGallery = () => {
         JusticeTat14,
         JusticeTat15,
         JusticeTat16,
-        JusticeTat17
+        JusticeTat17,
+        JusticeTat18,
+        JusticeTat19,
+        JusticeTat20,
+        JusticeTat21,
+        JusticeTat22
     ];
 
     const openModal = (image) => {
