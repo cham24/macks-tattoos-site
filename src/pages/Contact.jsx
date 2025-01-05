@@ -5,20 +5,8 @@ function Contact() {
     return (
         <div className="main">
             <div className="contact-container">
-                <div className="map-container">
-                    <iframe
-                        title="Map to Mack's Tattoo"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3157.6940069783864!2d-113.06585838796467!3d37.67989727189272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80b561badef2c4cd%3A0x3fe11f0413ec0cbd!2sMack&#39;s%20Tattoo%20Shop!5e0!3m2!1sen!2sus!4v1735865321349!5m2!1sen!2sus"
-                        width="100%"
-                        height="300"
-                        style={{ border: "0" }}
-                        allowFullScreen=""
-                        loading="lazy"
-                    ></iframe>
-                </div>
-
                 <div className="contact-content">
-                    <div className="contact-form-container">
+                    {/* <div className="contact-form-container">
                         <h2>Send Us a Message</h2>
                         <form className="contact-form">
                             <p>*All fields required</p>
@@ -36,6 +24,17 @@ function Contact() {
 
                             <button type="submit">Submit</button>
                         </form>
+                    </div> */}
+                    <div className="map-container">
+                        <iframe
+                            title="Map to Mack's Tattoo"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3157.6940069783864!2d-113.06585838796467!3d37.67989727189272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80b561badef2c4cd%3A0x3fe11f0413ec0cbd!2sMack&#39;s%20Tattoo%20Shop!5e0!3m2!1sen!2sus!4v1735865321349!5m2!1sen!2sus"
+                            width="100%"
+                            height="300"
+                            style={{ border: "0" }}
+                            allowFullScreen=""
+                            loading="lazy"
+                        ></iframe>
                     </div>
 
                     <div className="shop-details">

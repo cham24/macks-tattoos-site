@@ -5,6 +5,8 @@
     line-height: 1.6;
     padding: 10px;
     margin-left: 250px;
+    padding-bottom: 80px;
+    padding-top: 30px;
 }
 
 .contact-content {
@@ -35,7 +37,7 @@
     background-color: transparent;
     padding: 10px;
     box-shadow: none;
-    padding-left: 200px;
+    /* padding-right: 200px; */
 }
 
 .shop-details h2 {
@@ -47,10 +49,6 @@
     font-size: 19px;
     margin-top: 20px;
     color: #909090;
-}
-
-.shop-details p {
-    margin: 10px 0;
 }
 
 .shop-details a {
@@ -65,10 +63,10 @@
 /* Map Section */
 .map-container {
     width: 100%;
-    max-width: 1500px;
+    max-width: 900px;
     margin: 20px auto;
     border: 2px solid #FFD700;
-    border-radius: 8px;
+    border-radius: 5px;
     overflow: hidden;
 }
 

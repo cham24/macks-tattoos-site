@@ -63,6 +63,7 @@ import StarrTat16 from '../pages/imgs/starr/starr_tat16.jpg'
 import StarrTat17 from '../pages/imgs/starr/starr_tat17.jpg'
 import StarrTat18 from '../pages/imgs/starr/starr_tat18.jpg'
 import StarrTat19 from '../pages/imgs/starr/starr_tat19.jpg'
+import StarrTat20 from '../pages/imgs/starr/starr_tat22.jpg'
 
 /* JUSTICE PICS */
 import JusticeTat1 from '../pages/imgs/justice/justice_tat1.JPG'
@@ -102,7 +103,9 @@ const ImageGallery = () => {
         MackTat1,
         MackTat2,
         MackTat3,
+        PreciousTat13,
         MackTat4,
+        StarrTat20,
         MackTat5,
         MackTat6,
         PreciousTat1,
@@ -110,13 +113,11 @@ const ImageGallery = () => {
         PreciousTat3,
         PreciousTat4,
         PreciousTat5,
-        PreciousTat6,
         StarrTat1,
         StarrTat2,
         StarrTat3,
         StarrTat4,
         StarrTat5,
-        StarrTat6,
         Piercing1,
         Piercing2,
         Piercing3,
@@ -138,6 +139,7 @@ const ImageGallery = () => {
         PreciousTat10,
         PreciousTat11,
         PreciousTat12,
+        PreciousTat6,
         StarrTat7,
         StarrTat8,
         StarrTat9,
@@ -150,7 +152,6 @@ const ImageGallery = () => {
         MackTat16,
         MackTat17,
         MackTat18,
-        PreciousTat13,
         PreciousTat14,
         PreciousTat15,
         PreciousTat16,
@@ -160,6 +161,7 @@ const ImageGallery = () => {
         StarrTat14,
         StarrTat15,
         StarrTat16,
+        StarrTat6,
         StarrTat17,
         StarrTat18,
         MackTat19,
