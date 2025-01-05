@@ -28,11 +28,11 @@ const SampleArtistPage = () => {
 
   const images = [
     TattooImg1,
-    TattooImg2,
+    TattooImg21,
+    TattooImg6,
     TattooImg3,
     TattooImg4,
     TattooImg5,
-    TattooImg6,
     TattooImg7,
     TattooImg8,
     TattooImg9,
@@ -47,7 +47,7 @@ const SampleArtistPage = () => {
     TattooImg18,
     TattooImg19,
     TattooImg20,
-    TattooImg21
+    TattooImg2
   ];
 
   const openModal = (image) => {
@@ -62,14 +62,13 @@ const SampleArtistPage = () => {
     <div className="main">
       <div className="artist-page">
         <header className="artist-header">
-          <p className="availability">Available Days: *** - ***</p>
+          <p className="availability">Available Days: Tue. - Sat.</p>
         </header>
 
         <section className="artist-bio">
           <div className="bio-text">
             <h3>TATTOO ARTIST | Starr </h3>
-            <p>***INSERT ARTIST BIO HERE***</p>
-            <p>***INSERT XTRA INFO HERE***</p>
+            <p>Starr, a skilled artist from Cedar City, began her tattooing and piercing journey in October 2020 after starting her apprenticeship at Mack's at the age of 22. With a passion for creative expression and precision, she has quickly become known for her attention to detail. Starr's work reflects her dedication to delivering meaningful and high-quality art to her clients.</p>
           </div>
           <div className="bio-photo">
             <img src={ArtistImg} alt="Guilherme Assumpção" />

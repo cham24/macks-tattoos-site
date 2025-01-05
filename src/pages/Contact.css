@@ -7,11 +7,35 @@
     margin-left: 250px;
 }
 
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* margin-bottom: 20px; */
+}
+
 /* Shop Details */
-.shop-details {
+/* .shop-details {
     max-width: 800px;
     margin: 20px auto;
     text-align: center;
+} */
+
+.contact-form-container,
+.shop-details {
+    flex: 1;
+    max-width: 50%;
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.shop-details {
+    background-color: transparent;
+    padding: 10px;
+    box-shadow: none;
+    padding-left: 200px;
 }
 
 .shop-details h2 {
@@ -20,8 +44,9 @@
 }
 
 .shop-details h3 {
-    font-size: 20px;
+    font-size: 19px;
     margin-top: 20px;
+    color: #909090;
 }
 
 .shop-details p {
@@ -39,7 +64,8 @@
 
 /* Map Section */
 .map-container {
-    max-width: 800px;
+    width: 100%;
+    max-width: 1500px;
     margin: 20px auto;
     border: 2px solid #FFD700;
     border-radius: 8px;
@@ -60,13 +86,18 @@
     font-size: 24px;
     color: #FFD700;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.contact-form p {
+    font-size: 13px;
+    font-style: italic;
+    color: #909090;
 }
 
 .contact-form label {
@@ -112,5 +143,20 @@
     .contact-container {
         margin-left: auto;
         margin-bottom: -120px;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form-container,
+    .shop-details {
+        width: 900px;
+        max-width: 100%;
+    }
+
+    .shop-details {
+        padding-left: 10px;
     }
 }

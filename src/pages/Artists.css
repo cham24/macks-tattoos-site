@@ -28,8 +28,9 @@
 }
 
 .artist-card img {
-    width: 100%;
-    max-width: 150px;
+    width: 150px;
+    height: 150px;
+    /* max-height: 150px; */
     border-radius: 10px;
     object-fit: cover;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -44,6 +45,10 @@
 
 .artist-card:hover {
     transform: scale(1.025);
+}
+
+.artists-banner {
+    background-image: url('../pages/imgs/shop/shop4.JPG');
 }
 
 @media (max-width: 1000px) {

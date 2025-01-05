@@ -104,14 +104,13 @@ const SampleArtistPage = () => {
     <div className="main">
       <div className="artist-page">
         <header className="artist-header">
-          <p className="availability">Available Days: *** - ***</p>
+          <p className="availability">Available Days: Tue. - Sat.</p>
         </header>
 
         <section className="artist-bio">
           <div className="bio-text">
             <h3>TATTOO ARTIST | Precious</h3>
-            <p>***INSERT ARTIST BIO HERE***</p>
-            <p>***INSERT XTRA INFO HERE***</p>
+            <p>Precious, a talented artist from Cedar City, began her tattooing and piercing career in November 2021, starting her apprenticeship at Mack's as soon as she turned 18. Expanding her expertise, she added permanent makeup to her skillset in the summer of 2024. Passionate about her craft, Precious brings precision and creativity to every client she works with.</p>
           </div>
           <div className="bio-photo">
             <img src={ArtistImg} alt="Guilherme Assumpção" />

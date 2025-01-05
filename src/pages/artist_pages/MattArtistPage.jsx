@@ -12,12 +12,12 @@ const SampleArtistPage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    TattooImg1,
-    TattooImg2,
-    TattooImg3,
-    TattooImg4,
-    TattooImg5,
-    TattooImg6
+    // TattooImg1,
+    // TattooImg2,
+    // TattooImg3,
+    // TattooImg4,
+    // TattooImg5,
+    // TattooImg6
   ];
 
   const openModal = (image) => {
@@ -32,14 +32,13 @@ const SampleArtistPage = () => {
     <div className="main">
       <div className="artist-page">
         <header className="artist-header">
-          <p className="availability">Available Days: *** - ***</p>
+          <p className="availability">Available Days: Tue. - Sat.</p>
         </header>
 
         <section className="artist-bio">
           <div className="bio-text">
             <h3>TATTOO ARTIST | Matt</h3>
             <p>***INSERT ARTIST BIO HERE***</p>
-            <p>***INSERT XTRA INFO HERE***</p>
           </div>
           <div className="bio-photo">
             <img src={ArtistImg} alt="Guilherme Assumpção" />

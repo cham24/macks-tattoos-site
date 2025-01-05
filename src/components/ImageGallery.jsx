@@ -19,6 +19,8 @@ import MackTat15 from '../pages/imgs/mack/mack_tat15.JPG'
 import MackTat16 from '../pages/imgs/mack/mack_tat16.JPG'
 import MackTat17 from '../pages/imgs/mack/mack_tat17.JPG'
 import MackTat18 from '../pages/imgs/mack/mack_tat18.JPG'
+import MackTat19 from '../pages/imgs/mack/mack_tat19.JPG'
+import MackTat20 from '../pages/imgs/mack/mack_tat20.JPG'
 
 /* PRECIOUS PICS */
 import PreciousTat1 from '../pages/imgs/precious/precious_tattoo1.png'
@@ -39,6 +41,7 @@ import PreciousTat15 from '../pages/imgs/precious/precious_tattoo19.jpg'
 import PreciousTat16 from '../pages/imgs/precious/precious_tattoo51.jpg'
 import PreciousTat17 from '../pages/imgs/precious/precious_tattoo21.jpg'
 import PreciousTat18 from '../pages/imgs/precious/precious_tattoo22.jpg'
+import PreciousTat19 from '../pages/imgs/precious/precious_tattoo30.jpg'
 
 /* STARR PICS */
 import StarrTat1 from '../pages/imgs/starr/starr_tat1.JPG'
@@ -59,6 +62,38 @@ import StarrTat15 from '../pages/imgs/starr/starr_tat15.jpg'
 import StarrTat16 from '../pages/imgs/starr/starr_tat16.jpg'
 import StarrTat17 from '../pages/imgs/starr/starr_tat17.jpg'
 import StarrTat18 from '../pages/imgs/starr/starr_tat18.jpg'
+import StarrTat19 from '../pages/imgs/starr/starr_tat19.jpg'
+
+/* JUSTICE PICS */
+import JusticeTat1 from '../pages/imgs/justice/justice_tat1.JPG'
+import JusticeTat2 from '../pages/imgs/justice/justice_tat2.JPG'
+import JusticeTat3 from '../pages/imgs/justice/justice_tat3.JPG'
+import JusticeTat4 from '../pages/imgs/justice/justice_tat4.JPG'
+import JusticeTat5 from '../pages/imgs/justice/justice_tat5.JPG'
+import JusticeTat6 from '../pages/imgs/justice/justice_tat6.JPG'
+import JusticeTat7 from '../pages/imgs/justice/justice_tat7.JPG'
+import JusticeTat8 from '../pages/imgs/justice/justice_tat8.JPG'
+import JusticeTat9 from '../pages/imgs/justice/justice_tat9.png'
+import JusticeTat10 from '../pages/imgs/justice/justice_tat10.JPG'
+import JusticeTat11 from '../pages/imgs/justice/justice_tat11.jpg'
+import JusticeTat12 from '../pages/imgs/justice/justice_tat12.jpg'
+import JusticeTat13 from '../pages/imgs/justice/justice_tat13.jpg'
+import JusticeTat14 from '../pages/imgs/justice/justice_tat14.jpg'
+import JusticeTat15 from '../pages/imgs/justice/justice_tat18.jpg'
+import JusticeTat16 from '../pages/imgs/justice/justice_tat16.jpg'
+import JusticeTat17 from '../pages/imgs/justice/justice_tat17.JPG'
+
+/* PIERCING PICS */
+import Piercing1 from '../pages/imgs/piercings/piercing1.jpg'
+import Piercing2 from '../pages/imgs/piercings/piercing2.jpg'
+import Piercing3 from '../pages/imgs/piercings/piercing3.jpg'
+import Piercing4 from '../pages/imgs/piercings/piercing5.png'
+import Piercing5 from '../pages/imgs/piercings/piercing6.jpg'
+import Piercing6 from '../pages/imgs/piercings/piercing7.jpg'
+import Piercing7 from '../pages/imgs/piercings/piercing8.jpg'
+import Piercing8 from '../pages/imgs/piercings/piercing9.jpg'
+import Piercing9 from '../pages/imgs/piercings/piercing10.jpg'
+
 
 const ImageGallery = () => {
     const [selectedImage, setSelectedImage] = useState(null);
@@ -82,6 +117,15 @@ const ImageGallery = () => {
         StarrTat4,
         StarrTat5,
         StarrTat6,
+        Piercing1,
+        Piercing2,
+        Piercing3,
+        Piercing4,
+        Piercing5,
+        Piercing6,
+        Piercing7,
+        Piercing8,
+        Piercing9,
         MackTat7,
         MackTat8,
         MackTat9,
@@ -117,7 +161,28 @@ const ImageGallery = () => {
         StarrTat15,
         StarrTat16,
         StarrTat17,
-        StarrTat18
+        StarrTat18,
+        MackTat19,
+        MackTat20,
+        PreciousTat19,
+        StarrTat19,
+        JusticeTat1,
+        JusticeTat2,
+        JusticeTat3,
+        JusticeTat4,
+        JusticeTat5,
+        JusticeTat6,
+        JusticeTat7,
+        JusticeTat8,
+        JusticeTat9,
+        JusticeTat10,
+        JusticeTat11,
+        JusticeTat12,
+        JusticeTat13,
+        JusticeTat14,
+        JusticeTat15,
+        JusticeTat16,
+        JusticeTat17
     ];
 
     const openModal = (image) => {

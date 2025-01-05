@@ -4,14 +4,14 @@ import './Artists.css';
 import MackImg from './imgs/mack.png';
 import StarrImg from './imgs/starr.png';
 import PreciousImg from './imgs/precious.png';
-import JusticeImg from './imgs/artist_image.png';
+import JusticeImg from './imgs/justice.jpg';
 import MattImg from './imgs/artist_image.png';
 
 const Artists = () => {
     return (
         <div className="main">
             <div className="artists-page">
-                <div className="hero-banner">
+                <div className="hero-banner artists-banner">
                     <div className="hero-text">
                         <h1>Meet Our Talented Artists</h1>
                         <p>

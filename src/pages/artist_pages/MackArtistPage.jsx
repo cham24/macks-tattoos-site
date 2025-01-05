@@ -64,14 +64,13 @@ const SampleArtistPage = () => {
     <div className="main">
       <div className="artist-page">
         <header className="artist-header">
-          <p className="availability">Available Days: *** - ***</p>
+          <p className="availability">Available Days: By Appt. Only</p>
         </header>
 
         <section className="artist-bio">
           <div className="bio-text">
             <h3>TATTOO ARTIST | Mack</h3>
-            <p>***INSERT ARTIST BIO HERE***</p>
-            <p>***INSERT XTRA INFO HERE***</p>
+            <p>Mack, a seasoned tattoo artist from Las Vegas, began his tattooing journey in 2005, completing an intensive apprenticeship in his hometown while traveling from Cedar City every weekend. In June 2012, he opened Mack's Tattoos, where he continues to blend skill and passion in every piece he creates. With nearly two decades of experience, Mack's artistry reflects a deep dedication to the craft.</p>
           </div>
           <div className="bio-photo">
             <img src={ArtistImg} alt="MACK" />
