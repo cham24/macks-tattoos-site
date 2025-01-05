@@ -29,8 +29,8 @@ const SampleArtistPage = () => {
 
   const images = [
     TattooImg1,
-    TattooImg2,
     TattooImg3,
+    TattooImg2,
     TattooImg4,
     TattooImg5,
     TattooImg6,

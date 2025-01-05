@@ -22,15 +22,17 @@ import TattooImg18 from '../imgs/starr/starr_tat18.jpg';
 import TattooImg19 from '../imgs/starr/starr_tat19.jpg';
 import TattooImg20 from '../imgs/starr/starr_tat20.jpg';
 import TattooImg21 from '../imgs/starr/starr_tat21.png';
+import TattooImg22 from '../imgs/starr/starr_tat22.jpg';
 
 const SampleArtistPage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    TattooImg1,
     TattooImg21,
+    TattooImg22,
     TattooImg6,
     TattooImg3,
+    TattooImg1,
     TattooImg4,
     TattooImg5,
     TattooImg7,
