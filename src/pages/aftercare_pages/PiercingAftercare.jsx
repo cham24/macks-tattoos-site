@@ -40,26 +40,40 @@ function PiercingAftercare() {
                         <tbody>
                             <tr>
                                 <td>Earlobe</td>
-                                <td>6-8 weeks</td>
+                                <td>4-6 weeks</td>
                             </tr>
                             <tr>
                                 <td>Cartilage</td>
-                                <td>4-12 months</td>
+                                <td>4-6 weeks</td>
                             </tr>
                             <tr>
                                 <td>Navel</td>
-                                <td>6-12 months</td>
+                                <td>4-6 weeks</td>
                             </tr>
                             <tr>
                                 <td>Nostril</td>
-                                <td>2-4 months</td>
+                                <td>4-6 weeks</td>
                             </tr>
                             <tr>
                                 <td>Tongue</td>
-                                <td>4-6 weeks</td>
+                                <td>6-10 weeks</td>
+                            </tr>
+                            <tr>
+                                <td>Lips</td>
+                                <td>6-10 weeks</td>
+                            </tr>
+                            <tr>
+                                <td>Dermals</td>
+                                <td>6-10 weeks</td>
+                            </tr>
+                            <tr>
+                                <td>Nipple</td>
+                                <td>12 months</td>
                             </tr>
                         </tbody>
                     </table>
+
+                    <p>*If piercings get snagged, healing may take longer.</p>
 
                     <h2>Signs of Infection</h2>
                     <p>
@@ -68,7 +82,7 @@ function PiercingAftercare() {
 
                     <h2>Contact Us</h2>
                     <p>
-                        For any questions or concerns, feel free to <a href="mailto:mackstattos@gmail.com">email us</a> or call us at (435) 555-5785.
+                        For any questions or concerns, feel free to <a href="mailto:mackstattos@gmail.com">email us</a> or call us at (435) 327-2165.
                     </p>
                 </div>
             </div>
