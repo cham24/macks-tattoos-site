@@ -10,12 +10,11 @@ import JusticesPage from './pages/artist_pages/JusticeArtistPage';
 import MattsPage from './pages/artist_pages/MattArtistPage';
 import Artists from './pages/Artists';
 import Aftercare from './pages/Aftercare';
-import MinorPiercing from './pages/aftercare_pages/MinorPiercing';
+// import MinorPiercing from './pages/aftercare_pages/MinorPiercing';
 import TattooAftercare from './pages/aftercare_pages/TattooAftercare';
 import PiercingAftercare from './pages/aftercare_pages/PiercingAftercare';
 import Reviews from './pages/Reviews';
 import Contact from './pages/Contact';
-// import ArtistPage from './pages/ArtistPage'; 
 
 function App() {
   return (
@@ -31,7 +30,7 @@ function App() {
           <Route path="/justice" exact={true} element={<JusticesPage />} />
           <Route path="/matt" exact={true} element={<MattsPage />} />
           <Route path="/aftercare" exact={true} element={<Aftercare />} />
-          <Route path="/aftercare-minor-piercing" exact={true} element={<MinorPiercing />} />
+          {/* <Route path="/aftercare-minor-piercing" exact={true} element={<MinorPiercing />} /> */}
           <Route path="/aftercare-tattoo" exact={true} element={<TattooAftercare />} />
           <Route path="/aftercare-piercing" exact={true} element={<PiercingAftercare />} />
           <Route path="/reviews" exact={true} element={<Reviews />} />

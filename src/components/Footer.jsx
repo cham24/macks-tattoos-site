@@ -21,7 +21,7 @@ const Footer = () => {
                 <div className="footer-column business-hours">
                     {/* <h3>Business Hours</h3> */}
                     <p>STORE BUSINESS HOURS FROM 12PM TO 8PM, TUESDAY THROUGH SATURDAY</p><br />
-                    <p>PLEASE CLICK ON EACH ARTIST'S PROFILE PAGE FOR HIS OR HER AVAILABILITY</p>
+                    {/* <p>PLEASE CLICK ON EACH ARTIST'S PROFILE PAGE FOR HIS OR HER AVAILABILITY</p> */}
                 </div>
 
                 <div className="footer-column">

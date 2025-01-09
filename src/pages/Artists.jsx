@@ -4,7 +4,7 @@ import './Artists.css';
 import MackImg from './imgs/mack.png';
 import StarrImg from './imgs/starr.png';
 import PreciousImg from './imgs/precious.png';
-import JusticeImg from './imgs/justice.jpg';
+import JusticeImg from './imgs/justice_2.jpg';
 import MattImg from './imgs/artist_image.png';
 
 const Artists = () => {

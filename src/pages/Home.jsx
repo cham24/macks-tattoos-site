@@ -7,9 +7,9 @@ function Home() {
             <div className="homepage">
                 <div className="hero-section">
                     <div className="overlay">
-                        <h1 className="title">MACK'S TATTOO & PIERCING</h1>
+                        <h1 className="title">MACK'S TATTOO</h1>
                         <p className="subtitle">
-                            TATTOO SHOP IN THE HEART OF IN CEDAR CITY, UT
+                            TATTOO SHOP IN THE HEART OF CEDAR CITY, UT
                         </p>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ function Home() {
                             Located in the heart of Cedar City, Mack's Tattoos and Piercing studio is the place to satisfy your craving for body art.
                         </p>
                         <p>
-                            We have a team of fun, artistic, and very talented artists. Check out our Yelp page and Reviews tab to see what our awesome clients have to say about us.
+                            We have a team of fun, artistic, and very talented artists. Check out our Yelp page and Reviews tab to see what our awesome clients have to say about us! Walk-ins welcome.
                         </p>
                     </div>
                 </div>

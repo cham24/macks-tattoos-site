@@ -33,7 +33,7 @@ function Navbar() {
                         <a href="/reviews">REVIEWS</a>
                     </li>
                     <li>
-                        <a href="/aftercare">INFO & AFTERCARE</a>
+                        <a href="/aftercare">AFTERCARE</a>
                     </li>
                     <li>
                         <a href="/contact">CONTACT</a>

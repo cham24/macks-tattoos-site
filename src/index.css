@@ -113,13 +113,13 @@ body {
   border-radius: 5px;
   object-fit: cover;
   cursor: pointer;
-  transition: transform 0.3s ease-in-out;
+  /* transition: transform 0.3s ease-in-out; */
 }
 
-.image-gallery img:hover {
+/* .image-gallery img:hover {
   transform: scale(1.015);
   transition: transform 0.3s ease-in-out;
-}
+} */
 
 .gallery-section h2 {
   text-align: center;
