@@ -13,8 +13,10 @@ body {
   =====================================================*/
 .hero-section {
   position: relative;
-  height: 50vh;
-  background-image: url('./pages/imgs/shop/shop6.JPG');
+  height: 60vh;
+  /* background-image: url('./pages/imgs/shop/shop6.JPG'); */
+  background-image: url('./pages/imgs/macks_logo.png');
+  background-color: #080808;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -22,13 +24,14 @@ body {
   align-items: center;
   color: white;
   text-align: center;
+  margin-left: 250px;
 }
 
 .hero-section .overlay {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 190px 0px;
   width: 100%;
-  margin-left: 250px;
+  /* margin-left: 250px; */
 }
 
 .title {
@@ -278,6 +281,10 @@ body {
   }
 
   .bottom-info {
+    margin-left: auto;
+  }
+
+  .hero-section {
     margin-left: auto;
   }
 }

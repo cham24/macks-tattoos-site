@@ -7,7 +7,7 @@ function Home() {
             <div className="homepage">
                 <div className="hero-section">
                     <div className="overlay">
-                        <h1 className="title">MACK'S TATTOO</h1>
+                        <h1 className="title">MACK'S TATTOOS</h1>
                         <p className="subtitle">
                             TATTOO SHOP IN THE HEART OF CEDAR CITY, UT
                         </p>
