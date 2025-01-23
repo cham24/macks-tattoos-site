@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './ArtistsPage.css';
 import ArtistImg from '../imgs/artist_image.png';
-import TattooImg1 from '../imgs/tattoo_img.png';
-import TattooImg2 from '../imgs/tattoo_img.png';
+import TattooImg1 from '../imgs/matt/matt_tat1.JPG';
+import TattooImg2 from '../imgs/matt/matt_tat2.JPG';
 import TattooImg3 from '../imgs/tattoo_img.png';
 import TattooImg4 from '../imgs/tattoo_img.png';
 import TattooImg5 from '../imgs/tattoo_img.png';
@@ -12,8 +12,8 @@ const SampleArtistPage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    // TattooImg1,
-    // TattooImg2,
+    TattooImg1,
+    TattooImg2,
     // TattooImg3,
     // TattooImg4,
     // TattooImg5,
@@ -38,7 +38,7 @@ const SampleArtistPage = () => {
         <section className="artist-bio">
           <div className="bio-text">
             <h3>TATTOO ARTIST | Matt</h3>
-            <p>***INSERT ARTIST BIO HERE***</p>
+            <p>Matt, a Las Vegas native, launched his tattooing journey in June 2024 through an apprenticeship at Mack's Tattoos. With a focus on creativity and precision, he is committed to becoming a better artist by crafting unique and memorable designs.</p>
           </div>
           <div className="bio-photo">
             <img src={ArtistImg} alt="Guilherme Assumpção" />
