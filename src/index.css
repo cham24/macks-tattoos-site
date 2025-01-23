@@ -13,7 +13,7 @@ body {
   =====================================================*/
 .hero-section {
   position: relative;
-  height: 60vh;
+  /* height: 60vh; */
   /* background-image: url('./pages/imgs/shop/shop6.JPG'); */
   background-image: url('./pages/imgs/macks_logo.png');
   background-color: #080808;
