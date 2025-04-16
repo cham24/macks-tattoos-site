@@ -34,7 +34,8 @@
 }
 
 .menu-toggle {
-    display: none; /* Hidden for larger screens */
+    display: none;
+    /* Hidden for larger screens */
 }
 
 /* Navigation Menu */
@@ -91,8 +92,9 @@
     color: #007bff;
 }
 
-#xtwitter-icon:hover {
-    color: grey;
+#tiktok-icon:hover {
+    color: #00F6EF;
+    /* color: linear-gradient(90deg, rgba(0, 246, 239, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(250, 1, 81, 1) 100%); */
 }
 
 #yelp-icon:hover {

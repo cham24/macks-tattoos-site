@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faXTwitter, faFacebook, faYelp } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faTiktok, faFacebook, faYelp } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import MacksLogo from '../pages/imgs/macks_logo.png';
 
@@ -46,9 +46,9 @@ function Navbar() {
                     <a href="https://www.facebook.com/MACKSTATTOOSHOP/" id="facebook-icon">
                         <FontAwesomeIcon icon={faFacebook} />
                     </a>
-                    {/* <a href="https://www.google.com/search?q=macks+tattoo#lrd=0x80b561badef2c4cd:0x3fe11f0413ec0cbd,1" id="xtwitter-icon">
-                        <FontAwesomeIcon icon={faXTwitter} />
-                    </a> */}
+                    <a href="https://www.tiktok.com/@macks_tattoos" id="tiktok-icon">
+                        <FontAwesomeIcon icon={faTiktok} />
+                    </a>
                     <a href="https://www.yelp.com/biz/macks-tattoos-cedar-city" id="yelp-icon">
                         <FontAwesomeIcon icon={faYelp} />
                     </a>
