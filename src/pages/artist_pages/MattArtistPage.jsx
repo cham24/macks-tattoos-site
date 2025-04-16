@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './ArtistsPage.css';
-import ArtistImg from '../imgs/artist_image.png';
+import ArtistImg from '../imgs/matt2.jpeg';
 import TattooImg1 from '../imgs/matt/matt_tat1.JPG';
 import TattooImg2 from '../imgs/matt/matt_tat2.JPG';
-import TattooImg3 from '../imgs/tattoo_img.png';
-import TattooImg4 from '../imgs/tattoo_img.png';
-import TattooImg5 from '../imgs/tattoo_img.png';
-import TattooImg6 from '../imgs/tattoo_img.png';
+import TattooImg3 from '../imgs/matt/matt_tat3.jpeg';
+import TattooImg4 from '../imgs/matt/matt_tat4.jpeg';
+import TattooImg5 from '../imgs/matt/matt_tat5.jpeg';
+// import TattooImg6 from '../imgs/matt/matt_tat6.jpeg';
 
 const SampleArtistPage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -14,9 +14,9 @@ const SampleArtistPage = () => {
   const images = [
     TattooImg1,
     TattooImg2,
-    // TattooImg3,
-    // TattooImg4,
-    // TattooImg5,
+    TattooImg3,
+    TattooImg4,
+    TattooImg5,
     // TattooImg6
   ];
 

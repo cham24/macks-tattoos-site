@@ -78,11 +78,11 @@ function Reviews() {
             rating: 5,
             text: "Mack took care of me and my wife. This man put so much time and love in his tattoos that it set a whole new standard! Mack and his crew are amazing people. This shop won Best of Southern Utah for a reason!!!! Once you go Mack you Never Go Back!"
         },
-        {
-            name : "",
-            rating: 5,
-            text: ""
-        }
+        // {
+        //     name : "",
+        //     rating: 5,
+        //     text: ""
+        // }
     ];
 
     return (
