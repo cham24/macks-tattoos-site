@@ -40,15 +40,16 @@ function Navbar() {
                     </li>
                 </ul>
                 <div className="social-icons">
+                    <a href="https://www.tiktok.com/@macks_tattoos" id="tiktok-icon">
+                        <FontAwesomeIcon icon={faTiktok} />
+                    </a>
                     <a href="https://www.instagram.com/macks.tattoos/" id="instagram-icon">
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
                     <a href="https://www.facebook.com/MACKSTATTOOSHOP/" id="facebook-icon">
                         <FontAwesomeIcon icon={faFacebook} />
                     </a>
-                    <a href="https://www.tiktok.com/@macks_tattoos" id="tiktok-icon">
-                        <FontAwesomeIcon icon={faTiktok} />
-                    </a>
+
                     <a href="https://www.yelp.com/biz/macks-tattoos-cedar-city" id="yelp-icon">
                         <FontAwesomeIcon icon={faYelp} />
                     </a>
